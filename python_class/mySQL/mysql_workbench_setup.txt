@@ -1,0 +1,6 @@
+opened mysql
+clicked the Myconnections and clicked the wrench to show connection to server 
+went back into the connections and clicked into one created called 'twitter' from the practice examples
+checked to see if the server was running. it was connected and running. 
+then connected to the specific database by typing USE twitter. 
+database pops up in lower right side of screen.

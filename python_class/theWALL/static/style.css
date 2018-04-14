@@ -1,0 +1,54 @@
+.wrapper {
+    width: 970px;
+    margin: 0 auto;
+}
+
+.header{
+    /* display: inline-block; */
+    background-color: orange;
+}
+
+.comments {
+    margin: 100px;
+}
+/* .whole {
+    border: 1px solid red;
+    width: 400px;
+    height: auto;
+} */
+
+.post-reply {
+    margin-bottom: 15px;
+}
+
+.left, .right1{
+    display: inline-block; 
+}
+
+.right1{
+    margin-left: 450px;
+}
+.header a {
+    margin: 25px;
+}
+.button{
+    background-color: lightskyblue;
+}
+.commenters{
+    margin: 10px;
+    border: 1px solid black;
+    width: 350px;
+    height: auto;
+}
+#replies {
+    margin-left: 50px;
+    /* width: 350px;
+    height: auto;
+    border: 1px solid grey; */
+}
+.reply_box {
+    margin-left: 50px;
+    width: 350px;
+    height: auto;
+    border: 1px solid grey;
+}

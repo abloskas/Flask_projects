@@ -1,0 +1,41 @@
+Last login: Mon Mar  5 13:48:35 on ttys000
+Ashleys-MacBook-Pro:~ abloskas$ pip install Django==1.11.9
+Collecting Django==1.11.9
+  Downloading Django-1.11.9-py2.py3-none-any.whl (6.9MB)
+    100% |████████████████████████████████| 7.0MB 160kB/s 
+Requirement already satisfied: pytz in /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages (from Django==1.11.9)
+Installing collected packages: Django
+  Found existing installation: Django 1.11.10
+    Uninstalling Django-1.11.10:
+      Successfully uninstalled Django-1.11.10
+Successfully installed Django-1.11.9
+
+Ashleys-MacBook-Pro:~ abloskas$ pip list
+DEPRECATION: The default format will switch to columns in the future. You can use --format=(legacy|columns) (or define a format=(legacy|columns) in your pip.conf under the [list] section) to disable this warning.
+click (6.7)
+Django (1.11.9)
+Flask (0.12.2)
+itsdangerous (0.24)
+Jinja2 (2.10)
+MarkupSafe (1.0)
+pip (9.0.1)
+pytz (2018.3)
+setuptools (28.8.0)
+Werkzeug (0.14.1)
+
+Ashleys-MacBook-Pro:~ abloskas$ pip install Django==1.11.9
+Requirement already satisfied: Django==1.11.9 in /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages
+Requirement already satisfied: pytz in /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages (from Django==1.11.9)
+
+Ashleys-MacBook-Pro:~ abloskas$ pip freeze
+click==6.7
+Django==1.11.9
+Flask==0.12.2
+itsdangerous==0.24
+Jinja2==2.10
+MarkupSafe==1.0
+pytz==2018.3
+Werkzeug==0.14.1
+
+Ashleys-MacBook-Pro:Desktop abloskas$ pip freeze > requirements.txt
+

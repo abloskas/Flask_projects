@@ -1,0 +1,30 @@
+h2 {
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+form {
+    text-align: center;
+}
+
+.wrong {
+    margin-left: 375px;
+    color: white;
+    font-family: arial;
+    font-size: 18px;
+    text-align: center;
+    background-color: red;
+    height: 150px;
+    width: 150px;
+}
+.correct {
+    margin-left: 375px;
+    color: white;
+    font-family: arial;
+    font-size: 18px;
+    text-align: center;
+    background-color: green;
+    height: 150px;
+    width: 150px;
+}
